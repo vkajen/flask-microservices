@@ -1,11 +1,11 @@
-# Cinema 3 - (Extremely Simplified) Example of Microservices in Python
+# Movie Booking - (Minimal Application to explain the concept) Example of Microservices in Python
 
 
 Overview
 ========
 
-Cinema 3 is an example project which demonstrates the use of microservices for a fictional movie theater. 
-The Cinema 3 backend is powered by 4 microservices, all of which happen to be written in Python using 
+Movie Booking is an example project which demonstrates the use of microservices for a fictional movie theater. 
+The Movie Booking backend is powered by 4 microservices, all of which happen to be written in Python using 
 Flask.
 
  * Movie Service: Provides information like movie ratings, title, etc.
@@ -172,3 +172,4 @@ To lookup information about a user:
 To get suggested movies for a user:
 
     GET /users/michael_scott/suggested
+=======
